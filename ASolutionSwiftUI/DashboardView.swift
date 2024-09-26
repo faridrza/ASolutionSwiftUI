@@ -69,8 +69,8 @@ struct DashboardView: View {
                 .padding()
             }
             .navigationTitle("Demo App")
-            .background(AppColors.background.edgesIgnoringSafeArea(.all))
+            .background(AppColors.background)
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+        .navigationViewStyle(.automatic)
     }
 }

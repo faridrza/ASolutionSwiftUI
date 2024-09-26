@@ -21,13 +21,15 @@ struct ASolutionSwiftUIApp: App {
 
     func setupNavigationBarAppearance() {
         let appearance = UINavigationBarAppearance()
-        appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColor(AppColors.primary)
+        appearance.configureWithTransparentBackground()
+        appearance.backgroundColor = .white
         appearance.titleTextAttributes = [
-            .foregroundColor: UIColor.white,
+            .foregroundColor: UIColor.black,
             .font: UIFont.boldSystemFont(ofSize: 20)
         ]
         UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        UINavigationBar.appearance().compactAppearance = appearance
+        UINavigationBar.appearance().tintColor = .black
     }
 }
