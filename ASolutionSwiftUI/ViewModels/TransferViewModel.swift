@@ -10,12 +10,12 @@ import Foundation
 import Combine
 
 class TransferViewModel: ObservableObject {
-    let senderDebitCard: DebitCard
+    @Published var senderDebitCard: DebitCard
     @Published var receiverCards: [DebitCard] = []
     @Published var selectedReceiverCard: DebitCard?
     @Published var transferAmountText: String = ""
-    @Published var errorMessage: AlertMessage? = nil
-    @Published var successMessage: AlertMessage? = nil
+    @Published var errorMessage: String? = nil
+    @Published var showErrorAlert: Bool = false
 
     private var transferAmount: Double {
         Double(transferAmountText) ?? 0.0
@@ -35,12 +35,14 @@ class TransferViewModel: ObservableObject {
 
     func startTransfer() {
         guard let receiverCard = selectedReceiverCard else {
-            errorMessage = AlertMessage(title: "Error", message: "Please select a receiver card.")
+            errorMessage = "Please select a receiver card."
+            showErrorAlert = true
             return
         }
 
-        if transferAmount <= 0 {
-            errorMessage = AlertMessage(title: "Error", message: "Please enter a valid amount.")
+        guard transferAmount > 0 else {
+            errorMessage = "Please enter a valid amount."
+            showErrorAlert = true
             return
         }
 
@@ -52,13 +54,16 @@ class TransferViewModel: ObservableObject {
 
         switch result {
         case .success:
-            successMessage = AlertMessage(title: "Success", message: "Your transfer has been successful.")
+            if let updatedSenderCard = debitCardHelper.debitCards.first(where: { $0.id == senderDebitCard.id }) {
+                senderDebitCard = updatedSenderCard
+            }
+            errorMessage = "Transfer successful."
+            showErrorAlert = true
             transferAmountText = ""
             selectedReceiverCard = nil
-        case .receiverNotFounded:
-            errorMessage = AlertMessage(title: "Error", message: "Receiver not found.")
-        case .senderAmountInsufficient:
-            errorMessage = AlertMessage(title: "Error", message: "Insufficient funds.")
+            fetchReceiverCards()
+        default: break
+            // Handle errors
         }
     }
 }

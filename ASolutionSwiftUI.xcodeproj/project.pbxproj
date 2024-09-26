@@ -6,17 +6,62 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DDB8D4482CA561E30076B2AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB8D42A2CA561E30076B2AF /* Preview Assets.xcassets */; };
+		DDB8D4492CA561E30076B2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB8D4372CA561E30076B2AF /* Assets.xcassets */; };
+		DDB8D44A2CA561E30076B2AF /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D42C2CA561E30076B2AF /* AppColors.swift */; };
+		DDB8D44B2CA561E30076B2AF /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D42D2CA561E30076B2AF /* AppFonts.swift */; };
+		DDB8D44C2CA561E30076B2AF /* CardListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4302CA561E30076B2AF /* CardListItemView.swift */; };
+		DDB8D44D2CA561E30076B2AF /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4312CA561E30076B2AF /* CardListView.swift */; };
+		DDB8D44E2CA561E30076B2AF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4322CA561E30076B2AF /* DashboardView.swift */; };
+		DDB8D44F2CA561E30076B2AF /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4332CA561E30076B2AF /* TransferView.swift */; };
+		DDB8D4502CA561E30076B2AF /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4352CA561E30076B2AF /* AlertMessage.swift */; };
+		DDB8D4512CA561E30076B2AF /* ASolutionSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4362CA561E30076B2AF /* ASolutionSwiftUIApp.swift */; };
+		DDB8D4522CA561E30076B2AF /* CardListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4382CA561E30076B2AF /* CardListItemViewModel.swift */; };
+		DDB8D4532CA561E30076B2AF /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4392CA561E30076B2AF /* CardListViewModel.swift */; };
+		DDB8D4542CA561E30076B2AF /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D43A2CA561E30076B2AF /* Customer.swift */; };
+		DDB8D4552CA561E30076B2AF /* CustomerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D43B2CA561E30076B2AF /* CustomerHelper.swift */; };
+		DDB8D4562CA561E30076B2AF /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D43C2CA561E30076B2AF /* DashboardViewModel.swift */; };
+		DDB8D4572CA561E30076B2AF /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D43D2CA561E30076B2AF /* Date+Ext.swift */; };
+		DDB8D4582CA561E30076B2AF /* DatePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D43E2CA561E30076B2AF /* DatePickerField.swift */; };
+		DDB8D4592CA561E30076B2AF /* DebitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D43F2CA561E30076B2AF /* DebitCard.swift */; };
+		DDB8D45A2CA561E30076B2AF /* DebitCardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4402CA561E30076B2AF /* DebitCardHelper.swift */; };
+		DDB8D45B2CA561E30076B2AF /* DeletionReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4412CA561E30076B2AF /* DeletionReason.swift */; };
+		DDB8D45C2CA561E30076B2AF /* LabelledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4422CA561E30076B2AF /* LabelledTextField.swift */; };
+		DDB8D45D2CA561E30076B2AF /* PhoneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4432CA561E30076B2AF /* PhoneHelper.swift */; };
+		DDB8D45E2CA561E30076B2AF /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4442CA561E30076B2AF /* PhoneNumberFormatter.swift */; };
+		DDB8D45F2CA561E30076B2AF /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4452CA561E30076B2AF /* String+Ext.swift */; };
+		DDB8D4602CA561E30076B2AF /* TransferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB8D4462CA561E30076B2AF /* TransferViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DDB8D3DB2CA54C400076B2AF /* ASolutionSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASolutionSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB8D42A2CA561E30076B2AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDB8D42C2CA561E30076B2AF /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		DDB8D42D2CA561E30076B2AF /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		DDB8D4302CA561E30076B2AF /* CardListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListItemView.swift; sourceTree = "<group>"; };
+		DDB8D4312CA561E30076B2AF /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		DDB8D4322CA561E30076B2AF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DDB8D4332CA561E30076B2AF /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		DDB8D4352CA561E30076B2AF /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		DDB8D4362CA561E30076B2AF /* ASolutionSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASolutionSwiftUIApp.swift; sourceTree = "<group>"; };
+		DDB8D4372CA561E30076B2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB8D4382CA561E30076B2AF /* CardListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListItemViewModel.swift; sourceTree = "<group>"; };
+		DDB8D4392CA561E30076B2AF /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		DDB8D43A2CA561E30076B2AF /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		DDB8D43B2CA561E30076B2AF /* CustomerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHelper.swift; sourceTree = "<group>"; };
+		DDB8D43C2CA561E30076B2AF /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		DDB8D43D2CA561E30076B2AF /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		DDB8D43E2CA561E30076B2AF /* DatePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerField.swift; sourceTree = "<group>"; };
+		DDB8D43F2CA561E30076B2AF /* DebitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitCard.swift; sourceTree = "<group>"; };
+		DDB8D4402CA561E30076B2AF /* DebitCardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitCardHelper.swift; sourceTree = "<group>"; };
+		DDB8D4412CA561E30076B2AF /* DeletionReason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletionReason.swift; sourceTree = "<group>"; };
+		DDB8D4422CA561E30076B2AF /* LabelledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelledTextField.swift; sourceTree = "<group>"; };
+		DDB8D4432CA561E30076B2AF /* PhoneHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneHelper.swift; sourceTree = "<group>"; };
+		DDB8D4442CA561E30076B2AF /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		DDB8D4452CA561E30076B2AF /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		DDB8D4462CA561E30076B2AF /* TransferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DDB8D3DD2CA54C400076B2AF /* ASolutionSwiftUI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ASolutionSwiftUI;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DDB8D3D82CA54C400076B2AF /* Frameworks */ = {
@@ -32,7 +77,7 @@
 		DDB8D3D22CA54C400076B2AF = {
 			isa = PBXGroup;
 			children = (
-				DDB8D3DD2CA54C400076B2AF /* ASolutionSwiftUI */,
+				DDB8D4472CA561E30076B2AF /* ASolutionSwiftUI */,
 				DDB8D3DC2CA54C400076B2AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +88,94 @@
 				DDB8D3DB2CA54C400076B2AF /* ASolutionSwiftUI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB8D4282CA561E30076B2AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D43D2CA561E30076B2AF /* Date+Ext.swift */,
+				DDB8D4452CA561E30076B2AF /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDB8D4292CA561E30076B2AF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D43B2CA561E30076B2AF /* CustomerHelper.swift */,
+				DDB8D43E2CA561E30076B2AF /* DatePickerField.swift */,
+				DDB8D4402CA561E30076B2AF /* DebitCardHelper.swift */,
+				DDB8D4422CA561E30076B2AF /* LabelledTextField.swift */,
+				DDB8D4432CA561E30076B2AF /* PhoneHelper.swift */,
+				DDB8D4442CA561E30076B2AF /* PhoneNumberFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDB8D42B2CA561E30076B2AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D42A2CA561E30076B2AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDB8D42E2CA561E30076B2AF /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D42C2CA561E30076B2AF /* AppColors.swift */,
+				DDB8D42D2CA561E30076B2AF /* AppFonts.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		DDB8D42F2CA561E30076B2AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D4382CA561E30076B2AF /* CardListItemViewModel.swift */,
+				DDB8D4392CA561E30076B2AF /* CardListViewModel.swift */,
+				DDB8D43C2CA561E30076B2AF /* DashboardViewModel.swift */,
+				DDB8D4462CA561E30076B2AF /* TransferViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DDB8D4342CA561E30076B2AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D4302CA561E30076B2AF /* CardListItemView.swift */,
+				DDB8D4312CA561E30076B2AF /* CardListView.swift */,
+				DDB8D4322CA561E30076B2AF /* DashboardView.swift */,
+				DDB8D4332CA561E30076B2AF /* TransferView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDB8D4472CA561E30076B2AF /* ASolutionSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D4612CA561E60076B2AF /* Models */,
+				DDB8D4282CA561E30076B2AF /* Extensions */,
+				DDB8D4292CA561E30076B2AF /* Helpers */,
+				DDB8D42B2CA561E30076B2AF /* Preview Content */,
+				DDB8D42E2CA561E30076B2AF /* Style */,
+				DDB8D42F2CA561E30076B2AF /* ViewModels */,
+				DDB8D4342CA561E30076B2AF /* Views */,
+				DDB8D4362CA561E30076B2AF /* ASolutionSwiftUIApp.swift */,
+				DDB8D4372CA561E30076B2AF /* Assets.xcassets */,
+			);
+			path = ASolutionSwiftUI;
+			sourceTree = "<group>";
+		};
+		DDB8D4612CA561E60076B2AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDB8D43A2CA561E30076B2AF /* Customer.swift */,
+				DDB8D43F2CA561E30076B2AF /* DebitCard.swift */,
+				DDB8D4412CA561E30076B2AF /* DeletionReason.swift */,
+				DDB8D4352CA561E30076B2AF /* AlertMessage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +192,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DDB8D3DD2CA54C400076B2AF /* ASolutionSwiftUI */,
 			);
 			name = ASolutionSwiftUI;
 			packageProductDependencies = (
@@ -109,6 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB8D4482CA561E30076B2AF /* Preview Assets.xcassets in Resources */,
+				DDB8D4492CA561E30076B2AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +251,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB8D44A2CA561E30076B2AF /* AppColors.swift in Sources */,
+				DDB8D44B2CA561E30076B2AF /* AppFonts.swift in Sources */,
+				DDB8D44C2CA561E30076B2AF /* CardListItemView.swift in Sources */,
+				DDB8D44D2CA561E30076B2AF /* CardListView.swift in Sources */,
+				DDB8D44E2CA561E30076B2AF /* DashboardView.swift in Sources */,
+				DDB8D44F2CA561E30076B2AF /* TransferView.swift in Sources */,
+				DDB8D4502CA561E30076B2AF /* AlertMessage.swift in Sources */,
+				DDB8D4512CA561E30076B2AF /* ASolutionSwiftUIApp.swift in Sources */,
+				DDB8D4522CA561E30076B2AF /* CardListItemViewModel.swift in Sources */,
+				DDB8D4532CA561E30076B2AF /* CardListViewModel.swift in Sources */,
+				DDB8D4542CA561E30076B2AF /* Customer.swift in Sources */,
+				DDB8D4552CA561E30076B2AF /* CustomerHelper.swift in Sources */,
+				DDB8D4562CA561E30076B2AF /* DashboardViewModel.swift in Sources */,
+				DDB8D4572CA561E30076B2AF /* Date+Ext.swift in Sources */,
+				DDB8D4582CA561E30076B2AF /* DatePickerField.swift in Sources */,
+				DDB8D4592CA561E30076B2AF /* DebitCard.swift in Sources */,
+				DDB8D45A2CA561E30076B2AF /* DebitCardHelper.swift in Sources */,
+				DDB8D45B2CA561E30076B2AF /* DeletionReason.swift in Sources */,
+				DDB8D45C2CA561E30076B2AF /* LabelledTextField.swift in Sources */,
+				DDB8D45D2CA561E30076B2AF /* PhoneHelper.swift in Sources */,
+				DDB8D45E2CA561E30076B2AF /* PhoneNumberFormatter.swift in Sources */,
+				DDB8D45F2CA561E30076B2AF /* String+Ext.swift in Sources */,
+				DDB8D4602CA561E30076B2AF /* TransferViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

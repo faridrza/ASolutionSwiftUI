@@ -10,13 +10,13 @@ import Foundation
 
 class CustomerHelper {
     static let shared = CustomerHelper()
-    
-    private var customer: Customer? = nil
-    
+
+    private var customer: Customer?
+
     func createCustomer(with model: Customer) {
         customer = model
     }
-    
+
     func getCustomer() -> Customer {
         return customer ?? Customer(name: "", surname: "", birthDate: "", gsmNumber: "")
     }
