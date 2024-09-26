@@ -32,7 +32,7 @@ class DashboardViewModel: ObservableObject {
         let isValidBirthdate = age >= 18
 
         let cleanedPhoneNumber = phoneNumber.filter { $0.isNumber }
-        let isValidPhoneNumber = cleanedPhoneNumber.count == 12 // "+994" + 9 digits
+        let isValidPhoneNumber = cleanedPhoneNumber.count == 11 // "+994" + 9 digits
 
         let isValid = isValidName && isValidSurname && isValidBirthdate && isValidPhoneNumber
 
